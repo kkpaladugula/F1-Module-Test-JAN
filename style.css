@@ -1,0 +1,82 @@
+
+.navbar-nav{
+    height: 40px;
+    width: 1378px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    /* display: flex;
+    flex-direction: row; */
+
+    padding: 0px;
+}
+
+.carousel-inner{
+    width: 1650px;
+    height: 874px;
+    background: #777777;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1; 
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 24px;
+    width: 496px;
+    left: 16px;
+    top: 8px;
+    border-radius: 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group{
+    border: 1px solid gray;
+    width:auto;
+    height: auto;
+}
+
+.card-images{
+    display: flex;  
+    justify-content: center;
+    width: 90%;
+    height: auto;
+
+}
+
+#accordionFlushExample{
+    border: 1px solid black;
+}
+.carousel-image{
+        height: 874px;
+        width: 1650px;
+        left: 1650px;
+        top: 0px;
+        border-radius: 0px;
+
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    flex-grow: 0;
+}
+@media only screen and (max-width: 768px){
+    .Form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
